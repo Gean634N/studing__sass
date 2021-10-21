@@ -7,4 +7,5 @@
 - [ ] Variables
 
 </br>
-These studies were done by watching a [udemy course](https://www.udemy.com/course/sass-e-scss-do-basico-ao-avancado-projetos).
+
+These studies were done by watching a [udemy course](https://www.udemy.com/course/sass-e-scss-do-basico-ao-avancado-projetos)
