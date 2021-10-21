@@ -1,0 +1,34 @@
+/*========= Globals variables =========*/
+h1 {
+  color: #999;
+  border: 2px solid red;
+}
+
+p {
+  color: #999;
+  border: 2px solid red;
+  font-size: 3rem;
+  margin: 15px;
+  padding: 10px;
+}
+
+a {
+  color: #999;
+}
+
+.variables-test p {
+  background-color: blue;
+  border: 3px dotted purple;
+  color: yellow;
+  font-weight: bolder;
+}
+.variables-test p span {
+  color: red;
+}
+
+h2 {
+  color: green;
+  border: 2px solid red;
+}
+
+/*# sourceMappingURL=styles.css.map */

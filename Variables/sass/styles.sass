@@ -1,0 +1,34 @@
+@import 'variables'
+
+h1
+  color: $text-color
+  border: $border
+
+p
+  color: $text-color
+  border: $border
+  font-size: $main-font
+  margin: #{$mx + 10px}
+  padding: #{$px + $py}
+
+a
+  color: $text-color
+
+.variables-test
+  $border: 3px dotted purple
+
+  p
+    $p__text-color: yellow
+    $span__text-color: red
+    background-color: $bg-color
+    border: $border // Shadowing
+    color: $p__text-color
+    font-weight: bolder
+
+    span
+      color: $span__text-color
+
+h2
+  // color: $p__text-color // Error -trying to use a local variable
+  color: $h2-color
+  border: $border
