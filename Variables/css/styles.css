@@ -1,10 +1,12 @@
 /*========= Globals variables =========*/
 h1 {
   color: #999;
+  border: 2px solid red;
 }
 
 p {
   color: #999;
+  border: 2px solid red;
 }
 
 a {
@@ -13,6 +15,7 @@ a {
 
 .variables-test p {
   background-color: blue;
+  border: 3px dotted purple;
   color: yellow;
   font-size: 2rem;
   font-weight: bolder;
@@ -23,6 +26,7 @@ a {
 
 h2 {
   color: green;
+  border: 2px solid red;
 }
 
 /*# sourceMappingURL=styles.css.map */

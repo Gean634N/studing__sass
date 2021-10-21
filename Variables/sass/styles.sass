@@ -2,22 +2,27 @@
 $text-color: #999
 $bg-color: blue
 $h2-color: green
+$border: 2px solid red
 
 h1
   color: $text-color
+  border: $border
 
 p
   color: $text-color
+  border: $border
 
 a
   color: $text-color
 
 .variables-test
+  $border: 3px dotted purple
 
   p
     $p__text-color: yellow
     $span__text-color: red
     background-color: $bg-color
+    border: $border // Shadowing
     color: $p__text-color
     font-size: 2rem
     font-weight: bolder
@@ -28,3 +33,4 @@ a
 h2
   // color: $p__text-color // Error -trying to use a local variable
   color: $h2-color
+  border: $border
