@@ -9,4 +9,12 @@ main .p__red {
   color: red;
 }
 
+li {
+  color: purple;
+}
+
+ol > li {
+  color: blue;
+}
+
 /*# sourceMappingURL=styles.css.map */
