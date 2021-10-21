@@ -1,4 +1,7 @@
+/*========= Globals variables =========*/
 $text-color: #999
+$bg-color: blue
+$h2-color: green
 
 h1
   color: $text-color
@@ -8,3 +11,20 @@ p
 
 a
   color: $text-color
+
+.variables-test
+
+  p
+    $p__text-color: yellow
+    $span__text-color: red
+    background-color: $bg-color
+    color: $p__text-color
+    font-size: 2rem
+    font-weight: bolder
+
+    span
+      color: $span__text-color
+
+h2
+  // color: $p__text-color // Error -trying to use a local variable
+  color: $h2-color

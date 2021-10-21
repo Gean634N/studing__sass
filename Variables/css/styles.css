@@ -1,3 +1,4 @@
+/*========= Globals variables =========*/
 h1 {
   color: #999;
 }
@@ -8,6 +9,20 @@ p {
 
 a {
   color: #999;
+}
+
+.variables-test p {
+  background-color: blue;
+  color: yellow;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.variables-test p span {
+  color: red;
+}
+
+h2 {
+  color: green;
 }
 
 /*# sourceMappingURL=styles.css.map */
