@@ -8,6 +8,8 @@ p {
   color: #999;
   border: 2px solid red;
   font-size: 3rem;
+  margin: 15px;
+  padding: 10px;
 }
 
 a {
