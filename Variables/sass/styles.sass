@@ -1,8 +1,4 @@
-/*========= Globals variables =========*/
-$text-color: #999
-$bg-color: blue
-$h2-color: green
-$border: 2px solid red
+@import 'variables'
 
 h1
   color: $text-color
@@ -11,6 +7,7 @@ h1
 p
   color: $text-color
   border: $border
+  font-size: $main-font
 
 a
   color: $text-color
@@ -24,7 +21,6 @@ a
     background-color: $bg-color
     border: $border // Shadowing
     color: $p__text-color
-    font-size: 2rem
     font-weight: bolder
 
     span
